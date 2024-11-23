@@ -15,17 +15,13 @@ This project is focused on analyzing the dataset of song tracks, exploring their
 - **Categorical Data Transformation:** Uses Label Encoding to convert categorical features (e.g., track_genre) into numeric values suitable for machine learning algorithms.
 - **Target Variable Binning:** Converts the continuous popularity into categorical bins (e.g., 0-20, 20-40) to prepare the dataset for classification tasks.
   
-###Machine Learning Algorithms:
-
+### Machine Learning Algorithms:
 **Random Forest Classifier:**
 - Purpose: This classifier predicts the popularity category of songs after binning the popularity values (e.g., "Top 30" vs "Below 30"). It uses an ensemble of decision trees to make predictions by averaging the outputs of multiple trees to improve accuracy.
-
 **Decision Tree Classifier:**
 - Purpose: A decision tree is used to classify songs into popularity categories based on their features. It recursively splits the data based on feature values to create decision nodes and make predictions.
-
 **XGBoost Classifier:**
 - Purpose: XGBoost is a powerful gradient boosting algorithm that combines multiple weak classifiers into a strong one, improving prediction accuracy for the popularity categories.
-
 **K-Nearest Neighbors (KNN) Classifier:**
 - Purpose: KNN is a simple, non-parametric algorithm that classifies songs based on the majority class of the 'K' nearest neighbors in the feature space.
   
