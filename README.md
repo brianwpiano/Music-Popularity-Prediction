@@ -53,7 +53,7 @@ Clone this repo then `cd Music-Popularity-Prediction`.
 Assuming you have Python3 installed on a Windows 10 or 11 or on MacOS, run this commands:
 
 ``` bash
-Music-Popularity-Prediction.ipynb
+Music_Popularity_Prediction.ipynb
 ```
 
 ---
