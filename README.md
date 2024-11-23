@@ -38,8 +38,8 @@ This project is focused on analyzing the dataset of song tracks, exploring their
 
 ### Project Screenshot
 ![Alt text](https://github.com/brianwpiano/Music-Popularity-Prediction/blob/main/Screenshot%202024-11-22%20201135.png)
-![Alt text](https://github.com/brianwpiano/Music-Popularity-Prediction/blob/main/Screenshot%202024-11-22%20204232.png)
 ![Alt text](https://github.com/brianwpiano/Music-Popularity-Prediction/blob/main/Screenshot%202024-11-22%20201159.png)
+![Alt text](https://github.com/brianwpiano/Music-Popularity-Prediction/blob/main/Screenshot%202024-11-22%20204232.png)
 
 
 ## Run the app
