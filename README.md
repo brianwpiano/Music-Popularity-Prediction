@@ -37,15 +37,10 @@ This project is focused on analyzing the dataset of song tracks, exploring their
 - **Classification Model Evaluation:** After transforming popularity into bins, evaluates the Random Forest Classifier using accuracy and F1 score to determine how well it classifies songs into popularity categories.
 
 ### Project Screenshot
-![Alt text](https://github.com/brianwpiano/billboard-hot100-analysis/blob/main/Screenshot%202024-10-02%20220651.png)
-![Alt text](https://github.com/brianwpiano/Billboard-Hot100-Analysis/blob/main/Screenshot%202024-10-14%20120449.png)
-![Alt text](https://github.com/brianwpiano/Billboard-Hot100-Analysis/blob/main/Screenshot%202024-10-14%20121207.png)
-![Alt text](https://github.com/brianwpiano/billboard-hot100-analysis/blob/main/Screenshot%202024-10-02%20220435.png)
-![Alt text](https://github.com/brianwpiano/Billboard-Hot100-Analysis/blob/main/Screenshot%202024-10-14%20120823.png)
-![Alt text](https://github.com/brianwpiano/billboard-hot100-analysis/blob/main/Screenshot%202024-10-02%20220523.png)
-![Alt text](https://github.com/brianwpiano/billboard-hot100-analysis/blob/main/Screenshot%202024-10-02%20220548.png)
-![Alt text](https://github.com/brianwpiano/billboard-hot100-analysis/blob/main/Screenshot%202024-10-02%20220601.png)
-![Alt text](https://github.com/brianwpiano/billboard-hot100-analysis/blob/main/Screenshot%202024-10-02%20220617.png)
+![Alt text](https://github.com/brianwpiano/Music-Popularity-Prediction/blob/main/Screenshot%202024-11-22%20201135.png)
+![Alt text](https://github.com/brianwpiano/Music-Popularity-Prediction/blob/main/Screenshot%202024-11-22%20204232.png)
+![Alt text](https://github.com/brianwpiano/Music-Popularity-Prediction/blob/main/Screenshot%202024-11-22%20201159.png)
+
 
 ## Run the app
 
