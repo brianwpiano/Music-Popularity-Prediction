@@ -1,6 +1,8 @@
 # Music Popularity Prediction
 
-This project is focused on analyzing the dataset of song tracks, exploring their features, and building predictive models to understand the factors influencing their popularity. We use machine learning techniques for both regression and classification tasks, and data manipulation is done using Python libraries like pandas, scikit-learn, and pycaret. The project involves data preprocessing, feature selection, model training, and evaluation, followed by the creation of classification bins to predict the song popularity as a category.
+This project focuses on analyzing a dataset of song tracks and predicting their popularity based on various features. The dataset undergoes extensive preprocessing, including cleaning and feature engineering, followed by the application of machine learning models for both regression and classification tasks. Using Python libraries like pandas, scikit-learn, and pycaret, the project employs algorithms such as Gradient Boosting, Random Forest, Decision Trees, XGBoost, and K-Nearest Neighbors to predict popularity scores.
+The analysis begins with the removal of irrelevant columns and label encoding of categorical features like track_genre. Following this, a regression model (RandomForestRegressor) is trained to predict the continuous popularity score. To enhance performance, feature selection is done using mutual information, and various models are evaluated using R² scores.
+Subsequently, the target variable, popularity, is binned into categories (e.g., 'Top 30', 'Below 30') for classification tasks. The classification models, including RandomForestClassifier, DecisionTreeClassifier, XGBClassifier, and KNeighborsClassifier, are trained and evaluated based on accuracy and F1 scores. The project aims to determine which factors most influence a song's popularity and create accurate predictions using these machine learning models.
 
 ### Requirements:
 - Python 3.12.4
