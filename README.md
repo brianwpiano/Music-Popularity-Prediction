@@ -18,10 +18,13 @@ This project is focused on analyzing the dataset of song tracks, exploring their
 ### Machine Learning Algorithms:
 **Random Forest Classifier:**
 - Purpose: This classifier predicts the popularity category of songs after binning the popularity values (e.g., "Top 30" vs "Below 30"). It uses an ensemble of decision trees to make predictions by averaging the outputs of multiple trees to improve accuracy.
+
 **Decision Tree Classifier:**
 - Purpose: A decision tree is used to classify songs into popularity categories based on their features. It recursively splits the data based on feature values to create decision nodes and make predictions.
+
 **XGBoost Classifier:**
 - Purpose: XGBoost is a powerful gradient boosting algorithm that combines multiple weak classifiers into a strong one, improving prediction accuracy for the popularity categories.
+
 **K-Nearest Neighbors (KNN) Classifier:**
 - Purpose: KNN is a simple, non-parametric algorithm that classifies songs based on the majority class of the 'K' nearest neighbors in the feature space.
   
