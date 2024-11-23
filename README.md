@@ -28,11 +28,11 @@ This project is focused on analyzing the dataset of song tracks, exploring their
 **K-Nearest Neighbors (KNN) Classifier:**
 - Purpose: KNN is a simple, non-parametric algorithm that classifies songs based on the majority class of the 'K' nearest neighbors in the feature space.
   
-### Feature Selection:**
+### Feature Selection:
 - **SelectKBest:** Identifies the most important features based on their relationship with the target variable to improve model performance.
 - **Mutual Information:** Measures feature dependencies with the target variable, aiding in the selection of relevant features for classification models.
 
-### Model Evaluation:**
+### Model Evaluation:
 - **Regression Model Evaluation:** Evaluates the Random Forest Regressor and Gradient Boosting Regressor models using R² score, measuring how well the model captures the variance in song popularity.
 - **Classification Model Evaluation:** After transforming popularity into bins, evaluates the Random Forest Classifier using accuracy and F1 score to determine how well it classifies songs into popularity categories.
 
