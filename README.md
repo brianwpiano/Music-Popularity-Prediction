@@ -1,6 +1,10 @@
 # Music Popularity Prediction
 
-This project is focused on analyzing the dataset of song tracks, exploring their features, and building predictive models to understand the factors influencing their popularity. We use machine learning techniques for both regression and classification tasks, and data manipulation is done using Python libraries like pandas, scikit-learn, and pycaret. The project involves data preprocessing, feature selection, model training, and evaluation, followed by the creation of classification bins to predict the song popularity as a category.
+This project aims to analyze and predict the popularity of song tracks based on various features extracted from the dataset. Through data preprocessing, feature engineering, and the application of machine learning techniques, the project explores both regression and classification approaches to understand the factors that contribute to a song’s success. The dataset is cleaned, and categorical variables such as track_genre are encoded, before using algorithms like Gradient Boosting, Random Forest, Decision Trees, XGBoost, and K-Nearest Neighbors to model the popularity score.
+
+The project starts with exploratory data analysis, removing irrelevant columns and performing feature selection to improve model performance. A RandomForestRegressor is first used to predict the continuous popularity score, with feature selection enhancing the model’s accuracy. Following this, the target variable, popularity, is categorized into bins such as 'Top 30' and 'Below 30' for classification tasks.
+
+Various classification models, including RandomForestClassifier, DecisionTreeClassifier, XGBClassifier, and KNeighborsClassifier, are trained and evaluated based on performance metrics like accuracy and F1 score. The ultimate goal of the project is to uncover the key factors influencing song popularity and build predictive models to forecast the success of new tracks.
 
 ### Requirements:
 - Python 3.12.4
@@ -37,15 +41,10 @@ This project is focused on analyzing the dataset of song tracks, exploring their
 - **Classification Model Evaluation:** After transforming popularity into bins, evaluates the Random Forest Classifier using accuracy and F1 score to determine how well it classifies songs into popularity categories.
 
 ### Project Screenshot
-![Alt text](https://github.com/brianwpiano/billboard-hot100-analysis/blob/main/Screenshot%202024-10-02%20220651.png)
-![Alt text](https://github.com/brianwpiano/Billboard-Hot100-Analysis/blob/main/Screenshot%202024-10-14%20120449.png)
-![Alt text](https://github.com/brianwpiano/Billboard-Hot100-Analysis/blob/main/Screenshot%202024-10-14%20121207.png)
-![Alt text](https://github.com/brianwpiano/billboard-hot100-analysis/blob/main/Screenshot%202024-10-02%20220435.png)
-![Alt text](https://github.com/brianwpiano/Billboard-Hot100-Analysis/blob/main/Screenshot%202024-10-14%20120823.png)
-![Alt text](https://github.com/brianwpiano/billboard-hot100-analysis/blob/main/Screenshot%202024-10-02%20220523.png)
-![Alt text](https://github.com/brianwpiano/billboard-hot100-analysis/blob/main/Screenshot%202024-10-02%20220548.png)
-![Alt text](https://github.com/brianwpiano/billboard-hot100-analysis/blob/main/Screenshot%202024-10-02%20220601.png)
-![Alt text](https://github.com/brianwpiano/billboard-hot100-analysis/blob/main/Screenshot%202024-10-02%20220617.png)
+![Alt text](https://github.com/brianwpiano/Music-Popularity-Prediction/blob/main/Screenshot%202024-11-22%20201135.png)
+![Alt text](https://github.com/brianwpiano/Music-Popularity-Prediction/blob/main/Screenshot%202024-11-22%20201159.png)
+![Alt text](https://github.com/brianwpiano/Music-Popularity-Prediction/blob/main/Screenshot%202024-11-22%20204232.png)
+
 
 ## Run the app
 
@@ -54,7 +53,7 @@ Clone this repo then `cd Music-Popularity-Prediction`.
 Assuming you have Python3 installed on a Windows 10 or 11 or on MacOS, run this commands:
 
 ``` bash
-Music-Popularity-Prediction.ipynb
+Music_Popularity_Prediction.ipynb
 ```
 
 ---
